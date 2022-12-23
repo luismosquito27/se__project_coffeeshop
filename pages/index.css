@@ -157,13 +157,16 @@
   flex-basis: 500px; 
   padding-left: 0; 
   width: 100%; 
+  justify-content: center; 
+  margin-bottom: 0; 
+  list-style: none; 
 }
 
- .card { 
+ .cards { 
    box-sizing: border-box;
    padding: 30px 24px 54px; 
    width: 600px; 
-
+   flex-basis: 500px; 
  }
  
 .card__title { 
@@ -185,6 +188,7 @@
    list-style: none; 
    margin: 0; 
    padding: 0; 
+   padding-left: 0; 
  }
 
  .card__list-divider {  
