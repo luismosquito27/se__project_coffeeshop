@@ -162,7 +162,7 @@
   list-style: none; 
 }
 
- .cards { 
+ .card { 
    box-sizing: border-box;
    padding: 30px 24px 54px; 
    width: 600px; 
