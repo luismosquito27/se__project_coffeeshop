@@ -112,7 +112,7 @@
  .header__paragraph { 
    margin: 0; 
 }
-
+/* section 2: menu */
 .menu { 
    background-image: url('/blocks/background_menu.svg');
    background-color: #0a2750;
@@ -126,8 +126,6 @@
    align-items: center; 
    flex-direction: column;
    display: flex; 
-   justify-content: center;
-   align-content: space around;
 }
 
 /* Typography: stage 2 block 1 */
@@ -135,7 +133,7 @@
    line-height: 52px; 
    max-width: 780px;
    font-family: Inter; 
-   font-style: normal; 
+   font-style: normal;
    font-weight: 500; 
    font-size: 44px; 
    width: 100px;  
@@ -144,27 +142,23 @@
 
 /* Typography stage 2 block 2 */
  .menu__subtitle { 
-  font-family: Noto Serif; 
-  font-style: normal; 
-  font-weight: normal; 
-  font-size: 20px; 
   line-height: 30px; 
   max-width: 780px; 
-  border-bottom: 24px;
+  margin-top: 24px;
+  text-align: center; 
 }
 
- .menu__cards { 
-  flex-basis: 500px; 
-  padding-left: 0; 
-  width: 100%; 
-  justify-content: center; 
-  margin-bottom: 0; 
+ .menu__cards {  
+  padding-left: 0;  
+  margin-top: 0; 
   list-style: none; 
+  max-width: 1300px;
+  justify-content: space-around;
+  align-items: center; 
 }
 
  .card { 
    box-sizing: border-box;
-   padding: 30px 24px 54px; 
    width: 600px; 
    flex-basis: 500px; 
  }
@@ -172,7 +166,7 @@
 .card__title { 
   font-family: Inter; 
   font-style: normal; 
-  font-weight: normal; 
+  font-weight: bold; 
   font-size: 20px; 
   line-height: 30px; 
   margin: 0 0 32px; 
@@ -199,4 +193,62 @@
    margin-left: 8px; 
    margin-right: 8px;
    flex-grow: 1;
+ }
+
+/* section 3: recipes */
+ .recipes { 
+  background-image: url(/blocks/background_recipes.svg);
+  background-color: #FFFF; 
+  background-position: center; 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  color: black;
+  box-sizing: border-box; 
+  margin-top: 10px; 
+  padding: 100px; 
+  flex-direction: column;
+  display: flex;
+  
+ }
+
+ .recipes__title { 
+  font-family: Inter; 
+  font-style: normal; 
+  font-weight: 500; 
+  font-size: 44px; 
+  max-width: 580px; 
+  width: 100px; 
+  line-height: 24px;
+}
+
+ .reipes__subtitle { 
+  font-family: Noto Serif; 
+  font-style: normal; 
+  font-weight: normal; 
+  font-size: 20px; 
+  line-height: 30px; 
+  max-width: 438px; 
+  padding-left: 80px; 
+  border-bottom: 80px; 
+ }
+
+ .recipes__videos { 
+  font-family: Inter; 
+  font-style: normal; 
+  font-weight: 500; 
+  font-size: 20px; 
+  line-height: 30px; 
+ }
+
+.recipes__video { 
+
+
+}
+
+ .recipes__iframe { 
+
+ }
+
+ .recipes__video-caption { 
+
  }
