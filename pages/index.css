@@ -303,7 +303,7 @@
   font-size: 16px;
   line-height: 20px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .form__input {
@@ -316,6 +316,7 @@
   font-weight: normal;
   color: #838383;
   margin-bottom: 32px;
+  border: none;
 }
 
 .form__button {
@@ -327,6 +328,7 @@
   opacity: 100%;
   transition: opacity 0.15s ease-in 0.15s;
   color: #fff;
+  border: none;
 }
 
 .form__button:hover {
@@ -335,10 +337,11 @@
 
 .form__checkbox {
   border-radius: 2px;
-  text-align: center;
   height: 20px;
   width: 20px;
   font-style: bold;
+  margin-right: 12px;
+  align-items: center;
 }
 
 .form__checkbox:checked {
@@ -351,6 +354,7 @@
   max-width: 1660px;
   box-sizing: border-box;
   display: flex;
+  padding: 100px 80px 173px 80px;
 }
 
 .about__title {
@@ -359,7 +363,6 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  padding: 100px 80px 0px 0px;
   max-width: 251px;
 }
 
@@ -372,12 +375,18 @@
 }
 
 .about__paragraph {
-  padding: 119px 80px 0 173px;
+  column-gap: 20px;
+  max-width: 660px;
 }
 
 .about__circle {
-  max-width: 251px;
   background-color: #2f80ed;
+  z-index: 0;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  top: -152px;
+  left: -129px;
 }
 
 .footer {
