@@ -1,5 +1,11 @@
 @import "/vendor/normalize.css";
 
+@keyframes pulsate {
+  50% {
+    opacity: 0.6;
+  }
+}
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -355,6 +361,8 @@
   box-sizing: border-box;
   display: flex;
   padding: 100px 80px 173px 80px;
+  position: relative;
+  overflow: hidden;
 }
 
 .about__title {
@@ -364,6 +372,8 @@
   font-size: 44px;
   line-height: 52px;
   max-width: 251px;
+  margin: 0;
+  z-index: 1;
 }
 
 .about__content {
@@ -372,11 +382,13 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  padding-left: 119px;
+  column-gap: 20px;
 }
 
 .about__paragraph {
-  column-gap: 20px;
   max-width: 660px;
+  margin-top: 0;
 }
 
 .about__circle {
@@ -385,8 +397,13 @@
   width: 426px;
   height: 426px;
   border-radius: 50%;
-  top: -152px;
+  margin-top: -152px;
   left: -129px;
+  position: absolute;
+}
+
+.about__circle_animation_blurred {
+  transform: scale(1.6 ease-in-out 1.3s);
 }
 
 .footer {
@@ -404,7 +421,7 @@
 .footer__list-item {
 }
 
-.footer__social-icon {
+.fpxooter__social-icon {
 }
 
 .footer__social-link {
