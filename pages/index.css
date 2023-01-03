@@ -279,11 +279,13 @@
   line-height: 52px;
   padding: 100px 0 80px 0;
   color: black;
+  position: relative;
 }
 
 .reservation__form {
   max-width: 385px;
   margin: 0 auto;
+  width: 500px;
 }
 
 .form__fieldset {
@@ -291,10 +293,17 @@
   flex-direction: column;
   justify-content: center;
   display: flex;
+  border: none;
 }
 
 .form__label {
-  max-width: 385px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .form__input {
@@ -306,11 +315,18 @@
   font-size: normal;
   font-weight: normal;
   color: #838383;
+  margin-bottom: 32px;
 }
 
 .form__button {
   border-radius: 4px;
   background-color: #2f80ed;
+  height: 60px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  opacity: 100%;
+  transition: opacity 0.15s ease-in 0.15s;
+  color: #fff;
 }
 
 .form__button:hover {
@@ -319,6 +335,14 @@
 
 .form__checkbox {
   border-radius: 2px;
+  text-align: center;
+  height: 20px;
+  width: 20px;
+  font-style: bold;
+}
+
+.form__checkbox:checked {
+  accent-color: #2f80ed;
 }
 
 .about {
@@ -326,6 +350,7 @@
   color: #fff;
   max-width: 1660px;
   box-sizing: border-box;
+  display: flex;
 }
 
 .about__title {
@@ -334,6 +359,8 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  padding: 100px 80px 0px 0px;
+  max-width: 251px;
 }
 
 .about__content {
@@ -350,4 +377,29 @@
 
 .about__circle {
   max-width: 251px;
+  background-color: #2f80ed;
+}
+
+.footer {
+}
+
+.footer__content {
+}
+
+.footer__logo {
+}
+
+.footer__list {
+}
+
+.footer__list-item {
+}
+
+.footer__social-icon {
+}
+
+.footer__social-link {
+}
+
+.footer__copyright {
 }
