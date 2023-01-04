@@ -334,11 +334,12 @@
   font-size: normal;
   font-weight: normal;
   margin-bottom: 32px;
-  border: 1px solid #838383;
+  border: 1px solid;
   box-sizing: border-box;
   width: 100%;
   border-radius: 4px;
   padding: 19px 20px;
+  color: #838383;
 }
 
 .form__item::placeholder {
@@ -397,6 +398,7 @@
   flex-direction: row;
   align-items: center;
   column-gap: 12px;
+  justify-content: center;
 }
 
 .about {
@@ -457,10 +459,13 @@
   box-sizing: border-box;
   color: #fff;
   display: flex;
+  padding: 60px 100px 60px 80px;
 }
 
 .footer__content {
-  padding: 60px 100px 60px 80px;
+  justify-content: space-between;
+  flex-direction: row;
+  display: flex;
 }
 
 .footer__logo {
@@ -470,13 +475,27 @@
 
 .footer__list {
   list-style-type: none;
+  padding-left: 0;
 }
 
 .footer__list-item {
+  margin-right: 10px;
 }
 
 .footer__list-item:last-of-type {
   padding-bottom: 0px;
+}
+
+.footer__social-heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 20px;
 }
 
 .footer__social-icon {
@@ -485,6 +504,8 @@
 }
 
 .footer__social-link {
+  color: white;
+  text-decoration: none;
 }
 
 .footer__social-link:hover {
