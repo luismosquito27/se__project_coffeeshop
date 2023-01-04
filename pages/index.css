@@ -429,9 +429,7 @@
 .about__paragraph {
   margin: 0 0 20px;
   font-family: Noto Serif;
-
   font-style: normal;
-
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
@@ -455,34 +453,48 @@
 
 .footer {
   background-image: #2f80ed;
-  max-width: 1600px;
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   box-sizing: border-box;
   color: #fff;
   display: flex;
 }
 
 .footer__content {
+  padding: 60px 100px 60px 80px;
 }
 
 .footer__logo {
+  width: 116px;
+  height: 21px;
 }
 
 .footer__list {
+  list-style-type: none;
 }
 
 .footer__list-item {
 }
 
-.fpxooter__social-icon {
+.footer__list-item:last-of-type {
+  padding-bottom: 0px;
+}
+
+.footer__social-icon {
+  height: 16px;
+  width: 16px;
 }
 
 .footer__social-link {
 }
 
 .footer__social-link:hover {
+  color: #c1c1c1;
 }
 
 .footer__copyright {
+  color: #fff;
+  margin-bottom: 60px;
+  margin-top: 108px;
 }
 
 .page {
