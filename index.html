@@ -184,28 +184,28 @@
         <section class="reservation" id="reservation">
           <!--reservation content-->
           <h3 class="reservation__title">Book a table</h3>
-          <form class="reservation__form">
+          <form class="form reservation__form">
             <fieldset class="form__fieldset">
               <!--box content: 1 -->
-              <label class="name">Name *</label>
+              <label class="form__label">Name *</label>
               <input
-                class="form__input"
+                class="form__item"
                 type="text"
                 id="surname"
                 placeholder="Name Surname"
               />
               <!--box content: 2 -->
-              <label class="name">Number of guests *</label>
+              <label class="form__label">Number of guests *</label>
               <input
-                class="form__input"
+                class="form__item"
                 type="number"
                 id="number guests"
                 placeholder="1-8"
               />
               <!--box conten: 3 -->
-              <label class="name">Date & time *</label>
+              <label class="form__label">Date & time *</label>
               <input
-                class="form__input"
+                class="form__item"
                 type="datetime-local"
                 id="time"
                 placeholder="mm/dd/yyyy --:-- --"
@@ -213,15 +213,19 @@
               <!--box content: 4 -->
               <label class="form__label">Your email *</label>
               <input
-                class="form__input"
+                class="form__item"
                 type="email"
                 id="email"
                 placeholder="email@email.com"
               />
-              <!--button content-->
-              <button class="form__button">Book a table</button>
-              <!--checkbox content -->
-              <label class="form__label">
+            </fieldset>
+            <!--button content-->
+            <fieldset class="form__fieldset">
+              <button type="submit" class="form__button">Book a table</button>
+            </fieldset>
+            <!--checkbox content -->
+            <fieldset class="form__fieldset">
+              <label class="form__label form__label_type_checkbox">
                 <input
                   class="form__checkbox"
                   type="checkbox"
@@ -252,15 +256,27 @@
               cups!
             </p>
           </div>
-          <div class="about__circle">
-            <div class="about__circle_animation_blurred"></div>
-          </div>
+          <div class="about__circle about__circle_animation_blurred"></div>
+          <div class="about__circle"></div>
         </section>
       </main>
 
       <footer class="footer" id="footer">
         <!--footer content -->
-        <div class="footer__content"></div>
+        <div class="footer__content">
+          <div class="footer__logo">
+            <img
+              src="/blocks/practicum_logo.svg"
+              alt="Practicum Logo"
+              class="footer__logo"
+            />
+            <h3 class="footer__social-heading">Social media</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">Facebook</li>
+              <li class="footer__list-item">Instagram</li>
+            </ul>
+          </div>
+        </div>
       </footer>
     </div>
   </body>
