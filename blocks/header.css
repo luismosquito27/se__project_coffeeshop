@@ -22,7 +22,7 @@
 }
 
 /* Typography: block: 3 span tag portion */
-.header__title_span-accent {
+.header__span-accent {
   font-family: noto serif;
   font-style: italic;
   font-weight: normal;
