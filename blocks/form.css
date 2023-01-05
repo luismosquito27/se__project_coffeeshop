@@ -93,7 +93,6 @@
 }
 
 .form__checkbox:checked {
-  accent-color: #2f80ed;
   background: #2f71e5 url(../images/check.svg) no-repeat center;
   background-size: 60%;
 }
