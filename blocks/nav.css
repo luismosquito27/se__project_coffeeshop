@@ -1,0 +1,24 @@
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  font-weight: 500;
+}
+
+/* adding hover state styles for .nav_link here */
+.nav__links {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+/*Typography: block: 1 */
+.nav__link {
+  text-decoration: none;
+  color: #000;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
+}
