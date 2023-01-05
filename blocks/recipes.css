@@ -1,6 +1,6 @@
 /* section 3: Recipes */
 .recipes {
-  background-image: url(/blocks/background_recipes.svg);
+  background-image: url("../images/background_recipes.svg");
   background-color: #ffff;
   background-position: center;
   background-size: cover;

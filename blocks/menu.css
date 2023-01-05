@@ -1,6 +1,6 @@
 /* section 2: Menu */
 .menu {
-  background-image: url("/blocks/background_menu.svg");
+  background-image: url("../images/background_menu.svg");
   background-color: #0a2750;
   background-position: center;
   background-repeat: no-repeat;
