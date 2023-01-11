@@ -7,28 +7,26 @@
   background-size: cover;
   color: white;
   box-sizing: border-box;
-  padding: 100px;
-  align-items: center;
-  flex-direction: column;
-  display: flex;
+  padding: 100px 100px 45px;
 }
 
 /* Typography: stage 2 block 1 */
 .menu__title {
   line-height: 52px;
-  max-width: 780px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
-  width: 100px;
+  max-width: 780px;
+  margin: 0 auto 24px;
+  text-align: center;
 }
 
 /* Typography stage 2 block 2 */
 .menu__subtitle {
   line-height: 30px;
   max-width: 780px;
-  margin-top: 24px;
+  margin: 0 auto;
   text-align: center;
   font-family: "Noto", "Times New Roman", Times, serif;
   font-style: normal;
@@ -38,12 +36,10 @@
 }
 
 .menu__cards {
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-  width: 100%;
-  flex-wrap: wrap;
   display: flex;
+  margin-top: 71px;
+  list-style: none;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 16px;
+  gap: 17px 40px;
 }

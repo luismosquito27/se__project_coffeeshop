@@ -9,7 +9,7 @@
     <meta name="description" content="Practicum coffee shop" />
 
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -32,7 +32,7 @@
           <div class="nav__links">
             <a class="nav__link" href="#menu">Menu</a>
             <a class="nav__link" href="#recipes">Recipes</a>
-            <a class="nav__link" href="#book-a-table">Book a table</a>
+            <a class="nav__link" href="#reservation">Book a table</a>
             <a class="nav__link" href="#contacts">Contacts</a>
           </div>
         </nav>
@@ -65,16 +65,15 @@
       <main class="content">
         <section class="menu" id="menu">
           <!--card content-->
-          <h3 class="menu__title">Menu</h3>
+          <h2 class="menu__title">Menu</h2>
           <p class="menu__subtitle">
             We brew from locally roasted, Fairtrade certified beans and use
             biodegradable cups. All teas from our collection are $2/cup.
           </p>
-          <!--The ul tag (unordered list) is used here as it is collection of cards-->
 
           <div class="menu__cards">
             <div class="card">
-              <h3 class="card__title">Filter</h3>
+              <h2 class="card__title">Filter</h2>
               <ul class="card__list">
                 <li class="card__list-item">
                   Regular (12 oz)<span class="card__list-divider"></span> $1
@@ -97,7 +96,7 @@
             </div>
 
             <div class="card">
-              <h3 class="card__title">Espresso</h3>
+              <h2 class="card__title">Espresso</h2>
               <ul class="card__list">
                 <li class="card__list-item">
                   Macchiato <span class="card__list-divider"></span> $2.25
@@ -116,7 +115,7 @@
             </div>
 
             <div class="card">
-              <h3 class="card__title">Baked Goods</h3>
+              <h2 class="card__title">Baked Goods</h2>
               <ul class="card__list">
                 <li class="card__list-item">
                   Almond Croissant<span class="card__list-divider"></span> $2
@@ -145,7 +144,7 @@
         <!--section 3: Recipes-->
         <section class="recipes" id="recipes">
           <!--recipes content videos-->
-          <h3 class="recipes__title">Recipes</h3>
+          <h2 class="recipes__title">Recipes</h2>
           <p class="recipes__subtitle">
             Check out some recipes we've collected for your home-brewing
             convenience:
@@ -183,7 +182,7 @@
         <!--section 4: Reservation-->
         <section class="reservation" id="reservation">
           <!--reservation content-->
-          <h3 class="reservation__title">Book a table</h3>
+          <h2 class="reservation__title">Book a table</h2>
           <form class="form reservation__form">
             <fieldset class="form__fieldset">
               <!--box content: 1 -->
@@ -209,7 +208,7 @@
               <!--box conten: 3 -->
               <label class="form__label"
                 >Date & time *
-                <input class="form__item" type="datetime-local" id="time" />
+                <input class="form__item" type="datetime-local" />
               </label>
               <!--box content: 4 -->
               <label class="form__label"
@@ -273,7 +272,7 @@
             class="footer__logo"
           />
           <div class="footer__social">
-            <h3 class="footer__social-heading">Social media</h3>
+            <h2 class="footer__social-heading">Social media</h2>
             <ul class="footer__list">
               <li class="footer__list-item">
                 <a class="footer__social-link" href="#">
@@ -298,7 +297,7 @@
             </ul>
           </div>
         </div>
-        <p class="footer__copyright">&amp; 2023 Luis Mosqueda</p>
+        <p class="footer__copyright">&copy; 2023 Luis Mosqueda</p>
       </footer>
     </div>
   </body>

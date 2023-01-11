@@ -27,7 +27,7 @@
 }
 
 .footer__list-item:last-of-type {
-  padding-bottom: 0px;
+  margin: 0px;
 }
 
 .footer__social {

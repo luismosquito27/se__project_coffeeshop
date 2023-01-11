@@ -45,7 +45,12 @@
 }
 
 .recipes__iframe {
-  line-height: 40px;
+  width: 480px;
+  height: 273px;
+  border: none;
+  position: relative;
+  z-index: 1;
+  background-color: #ccc;
 }
 
 .recipes__video-caption {

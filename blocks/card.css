@@ -1,13 +1,13 @@
+.card {
+  box-sizing: border-box;
+  padding: 30px 24px 54px;
+  width: 600px;
+}
+
 .card__list {
   list-style: none;
   margin: 0;
   padding: 0;
-  padding-left: 0;
-}
-
-.card {
-  max-width: 600%;
-  flex-basis: 500%;
 }
 
 .card__title {
@@ -23,8 +23,7 @@
   display: flex;
   align-items: baseline;
   margin-bottom: 16px;
-  width: 100%;
-  font-family: Noto serif;
+  font-family: "Noto", "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
