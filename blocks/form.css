@@ -1,5 +1,5 @@
 .form {
-  padding: 20px 128px;
+  padding: 20px 120px;
   box-sizing: border-box;
   max-width: 641px;
 }
@@ -25,7 +25,6 @@
 }
 
 .form__item {
-  max-width: 385px;
   font-family: "Inter", Arial, sans-serif;
   font-weight: normal;
   margin-bottom: 32px;
@@ -52,7 +51,7 @@
   transition: opacity 0.4s;
   color: #fff;
   border: 0;
-  margin: 0;
+  margin: 0 0 32px;
   box-sizing: border-box;
   padding: 20px 32px;
   cursor: pointer;

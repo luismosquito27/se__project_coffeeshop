@@ -153,27 +153,23 @@
             <div class="recipes__iframe">
               <iframe
                 src="https://www.youtube.com/embed/j6VlT_jUVPc"
-                width="480"
-                height="273"
-                class="recipes__iframe"
+                class="recipes__iframe-content"
               >
               </iframe>
               <div class="recipes__video-caption">
-                <span> Aeropress Recipe </span>
-                <span> ~5 min </span>
+                <span><p>Aeropress Recipe</p></span>
+                <span><p>~5 min</p> </span>
               </div>
             </div>
             <div class="recipes__iframe">
               <iframe
                 src="https://www.youtube.com/embed/st571DYYTR8"
-                height="273"
-                width="480"
-                class="recipes__iframe"
+                class="recipes__iframe-content"
               >
               </iframe>
               <div class="recipes__video-caption">
-                <span> French press recipe </span>
-                <span> ~15 min </span>
+                <span><p>French press recipe</p></span>
+                <span><p>~15 min</p> </span>
               </div>
             </div>
           </div>
@@ -193,6 +189,7 @@
                   type="text"
                   id="surname"
                   placeholder="Name-Surname"
+                  required
                 />
               </label>
               <!--box content: 2 -->
@@ -202,7 +199,10 @@
                   class="form__item"
                   type="number"
                   id="number-guests"
+                  min="1"
+                  max="8"
                   placeholder="1-8"
+                  required
                 />
               </label>
               <!--box conten: 3 -->
@@ -218,6 +218,7 @@
                   type="email"
                   id="email"
                   placeholder="email@email.com"
+                  required
                 />
               </label>
             </fieldset>
@@ -233,6 +234,7 @@
                   type="checkbox"
                   name="checkbox"
                   id="terms-of-use-checkbox"
+                  required
                 />
                 I agree with the terms of use</label
               >
