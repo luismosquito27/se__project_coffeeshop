@@ -1,7 +1,8 @@
 .card {
   box-sizing: border-box;
   padding: 30px 24px 54px;
-  width: 600px;
+  max-width: 600px;
+  flex-basis: 500%;
 }
 
 .card__list {
@@ -23,7 +24,7 @@
   display: flex;
   align-items: baseline;
   margin-bottom: 16px;
-  font-family: "Noto", "Times New Roman", Times, serif;
+  font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;

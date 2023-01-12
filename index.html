@@ -33,7 +33,7 @@
             <a class="nav__link" href="#menu">Menu</a>
             <a class="nav__link" href="#recipes">Recipes</a>
             <a class="nav__link" href="#reservation">Book a table</a>
-            <a class="nav__link" href="#contacts">Contacts</a>
+            <a class="nav__link" href="#about">About</a>
           </div>
         </nav>
         <h1 class="header__title">
@@ -73,7 +73,7 @@
 
           <div class="menu__cards">
             <div class="card">
-              <h2 class="card__title">Filter</h2>
+              <h3 class="card__title">Filter</h3>
               <ul class="card__list">
                 <li class="card__list-item">
                   Regular (12 oz)<span class="card__list-divider"></span> $1
@@ -96,7 +96,7 @@
             </div>
 
             <div class="card">
-              <h2 class="card__title">Espresso</h2>
+              <h3 class="card__title">Espresso</h3>
               <ul class="card__list">
                 <li class="card__list-item">
                   Macchiato <span class="card__list-divider"></span> $2.25
@@ -115,7 +115,7 @@
             </div>
 
             <div class="card">
-              <h2 class="card__title">Baked Goods</h2>
+              <h3 class="card__title">Baked Goods</h3>
               <ul class="card__list">
                 <li class="card__list-item">
                   Almond Croissant<span class="card__list-divider"></span> $2
@@ -144,21 +144,23 @@
         <!--section 3: Recipes-->
         <section class="recipes" id="recipes">
           <!--recipes content videos-->
-          <h2 class="recipes__title">Recipes</h2>
+          <h4 class="recipes__title">Recipes</h4>
           <p class="recipes__subtitle">
             Check out some recipes we've collected for your home-brewing
             convenience:
           </p>
           <div class="recipes__videos">
-            <div class="recipes__iframe">
+            <div class="recipes__video">
               <iframe
                 src="https://www.youtube.com/embed/j6VlT_jUVPc"
                 class="recipes__iframe-content"
               >
               </iframe>
-              <div class="recipes__video-caption">
-                <p><span>Aeropress Recipe</span></p>
-                <p><span>~5 min</span></p>
+              <div class="recipes__video">
+                <p class="recipes__video-caption">
+                  <span>Aeropress Recipe</span>
+                  <span>~5 min</span>
+                </p>
               </div>
             </div>
             <div class="recipes__iframe">
@@ -167,9 +169,11 @@
                 class="recipes__iframe-content"
               >
               </iframe>
-              <div class="recipes__video-caption">
-                <p><span>French press recipe</span></p>
-                <p><span>~15 min</span></p>
+              <div class="recipes__video">
+                <p class="recipes__video-caption">
+                  <span>French press recipe</span>
+                  <span>~15 min</span>
+                </p>
               </div>
             </div>
           </div>
@@ -178,7 +182,7 @@
         <!--section 4: Reservation-->
         <section class="reservation" id="reservation">
           <!--reservation content-->
-          <h2 class="reservation__title">Book a table</h2>
+          <h5 class="reservation__title">Book a table</h5>
           <form class="form reservation__form">
             <fieldset class="form__fieldset">
               <!--box content: 1 -->
@@ -208,7 +212,7 @@
               <!--box conten: 3 -->
               <label class="form__label"
                 >Date & time *
-                <input class="form__item" type="datetime-local" />
+                <input class="form__item" type="datetime-local" required />
               </label>
               <!--box content: 4 -->
               <label class="form__label"
@@ -245,7 +249,7 @@
         <!-- section 5: About the coffee shop -->
         <section class="about" id="about">
           <!--about the coffee shop content -->
-          <h3 class="about__title">About the coffee shop</h3>
+          <h5 class="about__title">About the coffee shop</h5>
           <div class="about__content">
             <p class="about__paragraph">
               Our coffee shop is located in the Practicum Library's hall. It

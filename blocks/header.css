@@ -23,7 +23,7 @@
 
 /* Typography: block: 3 span tag portion */
 .header__span-accent {
-  font-family: "Noto", "Times New Roman", Times, serif;
+  font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -34,9 +34,7 @@
 /* Typography: block: 4 */
 .header__description {
   max-width: 683px;
-  font-family: "Noto", "Times New Roman", Times, serif;
-  font-family: normal;
-  font-weight: 500;
+  font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-size: 20px;
   line-height: 30px;
   margin: 28px 0 0;
