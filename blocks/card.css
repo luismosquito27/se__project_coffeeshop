@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 30px 24px 54px;
   max-width: 600px;
-  flex-basis: 500%;
+  flex-basis: 40%;
 }
 
 .card__list {
