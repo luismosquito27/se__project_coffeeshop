@@ -16,6 +16,8 @@
   font-size: 44px;
   line-height: 52px;
   color: black;
+  margin-top: 0;
+  margin-bottom: 80px;
 }
 
 .reservation__form {
